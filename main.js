@@ -32,7 +32,7 @@ let tempMonth = tempDate.getMonth();
 let tempday = tempDate.getDate();
 
 // let futureDate = new Date(2021, 11, 25, 23, 59, 0);
-const futureDate = new Date(tempYear, tempMonth, tempday + 25, 23, 59, 0);
+const futureDate = new Date(tempYear, tempMonth, tempday + 24, 23, 59, 0);
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();
 const minutes = futureDate.getMinutes();
